@@ -1,0 +1,105 @@
+export const ISSUES = [
+  {
+    id: 1,
+    title: "Large Pothole on Main St",
+    location: "Main St & 5th Ave",
+    status: "pending",
+    date: "2026-03-10",
+    upvotes: 47,
+    img: "🕳️",
+    desc: "A large pothole approximately 30cm wide appeared after recent rain.",
+    category: "Pothole",
+  },
+  {
+    id: 2,
+    title: "Broken Road Divider",
+    location: "Highway 9, Km 14",
+    status: "in-progress",
+    date: "2026-03-08",
+    upvotes: 23,
+    img: "🚧",
+    desc: "Road divider broken, posing a safety hazard for night drivers.",
+    category: "Infrastructure",
+  },
+  {
+    id: 3,
+    title: "Cracked Pavement Near School",
+    location: "Oak Ave, near Lincoln School",
+    status: "resolved",
+    date: "2026-03-01",
+    upvotes: 89,
+    img: "🛣️",
+    desc: "Wide cracks in pavement near school entrance. Kids tripping hazard.",
+    category: "Damaged Road",
+  },
+  {
+    id: 4,
+    title: "Missing Road Sign",
+    location: "Elm Rd & River Blvd",
+    status: "pending",
+    date: "2026-03-12",
+    upvotes: 15,
+    img: "🚫",
+    desc: "Stop sign completely missing at this intersection since last week.",
+    category: "Signage",
+  },
+  {
+    id: 5,
+    title: "Flooded Underpass",
+    location: "Central Underpass, Downtown",
+    status: "in-progress",
+    date: "2026-03-11",
+    upvotes: 62,
+    img: "🌊",
+    desc: "Underpass floods every time it rains. Drainage needs urgent repair.",
+    category: "Drainage",
+  },
+  {
+    id: 6,
+    title: "Street Light Out",
+    location: "Park Lane, Block 3",
+    status: "resolved",
+    date: "2026-02-28",
+    upvotes: 31,
+    img: "💡",
+    desc: "Three consecutive street lights non-functional for 2 weeks.",
+    category: "Infrastructure",
+  },
+];
+
+export const NOTIFICATIONS = [
+  {
+    id: 1,
+    msg: "Your issue 'Large Pothole on Main St' is now In Progress",
+    time: "2h ago",
+    read: false,
+  },
+  {
+    id: 2,
+    msg: "Issue 'Cracked Pavement Near School' has been Resolved!",
+    time: "1d ago",
+    read: false,
+  },
+  {
+    id: 3,
+    msg: "New comment on your report #4",
+    time: "2d ago",
+    read: true,
+  },
+];
+
+export const STATS = {
+  total:      248,
+  pending:     94,
+  inProgress:  67,
+  resolved:    87,
+};
+
+export const MAP_MARKERS = [
+  { id: 1, x: 28, y: 35, status: "pending"     },
+  { id: 2, x: 55, y: 50, status: "in-progress" },
+  { id: 3, x: 70, y: 25, status: "resolved"    },
+  { id: 4, x: 40, y: 65, status: "pending"     },
+  { id: 5, x: 82, y: 55, status: "in-progress" },
+  { id: 6, x: 15, y: 72, status: "resolved"    },
+];
